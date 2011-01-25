@@ -1,3 +1,14 @@
 <project name="tornodo" default="default">
 
+    <property name="lib.directory" value="lib" />
+    <property name="tests.directory" value="test" />
+  
+    <target name="test">
+      <echo message="${basedir}" />
+      <exec dir="${basedir}" executable="sh" inputstring="expresso -I ${lib.directory} ${tests.directory}/*.test.js" />  
+    </target>
+    
+    <target name="coverage">
+      <exec dir="${basedir}" executable="sh" inputstring="expresso -I ${lib.directory} --cov ${tests.directory}/*.test.js" />  
+    </target>
 </project>
