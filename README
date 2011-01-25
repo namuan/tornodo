@@ -1,3 +1,4 @@
 Welcome to openpi
 
 Setup instructions
+curl https://github.com/namuan/openpi/raw/master/centos-setup.sh | sh
