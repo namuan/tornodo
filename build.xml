@@ -1,7 +1,7 @@
 <project name="tornodo" default="default">
 
-    <property name="lib.directory" value="lib" />
-    <property name="tests.directory" value="test" />
+    <property name="lib.directory" value="source/lib" />
+    <property name="tests.directory" value="source/test" />
   
     <target name="test">
       <echo message="${basedir}" />
