@@ -4,7 +4,7 @@ mkdir -p /mnt/ephemeral
 mount /dev/sda2 /mnt/ephemeral
 mkdir -p /mnt/ephemeral/workspace
 rm -rf /opt/*
-yum groupinstall 'Development Tools'
+yum groupinstall 'Development Tools' -y
 
 wget http://nodejs.org/dist/node-v0.2.5.tar.gz
 tar xf node-v0.2.5.tar.gz
