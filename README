@@ -1,4 +1,4 @@
-Welcome to openpi
+Welcome to tornodo
 
 Setup instructions
 curl https://github.com/namuan/openpi/raw/master/centos-setup.sh | sh
